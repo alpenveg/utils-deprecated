@@ -1,6 +1,7 @@
 package wordz
 
 import "math/rand"
+import "time"
 import "fmt" //Не забываем импорт пакета fmt
 
 var Hello = "This is wordz package"
@@ -13,6 +14,7 @@ func init() { // Добавили функцию. Она сработает пр
 
 func Random() string {
 	max := len(Words)
+	rand.Seed(time.Now().Unix())
 	return get(rand.Intn(max))
 }
 
