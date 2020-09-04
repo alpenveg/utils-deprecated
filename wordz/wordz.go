@@ -1,7 +1,7 @@
 package wordz
 
-import "math/rand"
-import "time"
+import "crypto/rand"
+import "math/big"
 import "fmt" //Не забываем импорт пакета fmt
 
 var Hello = "This is wordz package"
@@ -14,11 +14,11 @@ func init() { // Добавили функцию. Она сработает пр
 
 func Random() string {
 	max := len(Words)
-	rand.Seed(time.Now().Unix())
-	return get(rand.Intn(max))
+	r, _ := rand.Int(rand.Reader, big.NewInt(int64(max)))
+	return get(r.Int64())
 }
 
-func get(index int) string {
+func get(index int64) string {
 	return Prefix + Words[index]
 }
 
