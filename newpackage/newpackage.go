@@ -1,7 +1,7 @@
 package newpackage
 
 import (
-	"gopackages/wordz"
+	"github.com/alpenveg/utils/wordz"
 )
 
 func City() string {

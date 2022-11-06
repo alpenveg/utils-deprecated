@@ -1,5 +1,5 @@
-module gopackages
+module github.com/alpenveg/utils
 
-go 1.16
+go 1.19
 
-require github.com/huandu/xstrings v1.2.1
+require github.com/huandu/xstrings v1.3.3
