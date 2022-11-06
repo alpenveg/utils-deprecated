@@ -1,2 +1,4 @@
+github.com/alpenveg/utils v1.1.0 h1:o0qwcPzqBC0Ka5+4rsj7MpT0BxmQxKDmIlNb7IyWJTI=
+github.com/alpenveg/utils v1.1.0/go.mod h1:KTgj0dLDDLBZopurMD7Tnjo/Nmx1Xjcf656MINWq5II=
 github.com/huandu/xstrings v1.3.3 h1:/Gcsuc1x8JVbJ9/rlye4xZnVAbEkGauT8lbebqcQws4=
 github.com/huandu/xstrings v1.3.3/go.mod h1:y5/lhBue+AyNmUVz9RLU9xbLR0o4KIIExikq4ovT0aE=
